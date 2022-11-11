@@ -28,10 +28,10 @@ p <- ggplot() +
         panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank(),
         panel.background = element_rect(fill = "white"),
-        plot.title = element_text(size = 35, hjust = 0.5),
-        plot.caption = element_text(size = 20)) +
+        plot.title = element_text(size = 15, hjust = 0.5),
+        plot.caption = element_text(size = 8)) +
   guides(fill = "none")
 
 p
 
-ggsave("fi_puna.png", width = 10, height = 15, dpi = 72, units = "in", device = 'png')
+ggsave("fi_puna.png", width = 10, height = 20, dpi = 75, units = "cm", device = 'png')
