@@ -34,4 +34,4 @@ p <- ggplot() +
 
 p
 
-ggsave("fi_puna.png", width = 35, height = 65, dpi = 72, units = "cm", device = 'png')
+ggsave("fi_puna.png", width = 10, height = 15, dpi = 72, units = "in", device = 'png')
